@@ -55,7 +55,7 @@ public class Hernandez_Edwin_Lab3_Control {
 
                     } while (!eleccionUsuario.equals("piedra") && !eleccionUsuario.equals("papel") && !eleccionUsuario.equals("tijera"));
 
-                    randomGenerado = random.nextInt(1, 3);
+                    randomGenerado = random.nextInt(1, 4);
 
                     //La computadora elije piedra
                     if (randomGenerado == 1) {
